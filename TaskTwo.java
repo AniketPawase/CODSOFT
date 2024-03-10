@@ -91,8 +91,12 @@ public class TaskTwo {
 
     public static void main(String[] args) {
         TaskTwo tsk = new TaskTwo();
+        System.out.println("------------------------------");
         tsk.getAllSubMarks();
+        System.out.println("------------------------------");
         tsk.averagePercentage();
+        System.out.println("------------------------------");
         tsk.gradeCalculation();
+        System.out.println("------------------------------");
     }
 }
