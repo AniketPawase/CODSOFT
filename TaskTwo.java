@@ -11,6 +11,7 @@ public class TaskTwo {
     public double  avgPercentage;
     public String grade;
 
+    //Getting all MArks of the Students using Scanner functn
     public void getAllSubMarks(){
         Scanner sc = new Scanner(System.in);
         
@@ -52,11 +53,13 @@ public class TaskTwo {
         System.out.println("Total Marks Obtained By Student :"+this.totalMarks);
      }
 
+     //Calculation Average percentage Accoringly
     public void averagePercentage(){
         avgPercentage = this.totalMarks/5;
         System.out.println("Average percentage for student is "+this.avgPercentage+"%");
     }
 
+    //Assigning a Grade and Pass/Fail status 
     public void gradeCalculation(){
         if (this.avgPercentage > 90) {
             this.grade = "A+";
